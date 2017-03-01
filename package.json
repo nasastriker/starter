@@ -1,24 +1,39 @@
 {
-  "name": "starter",
+  "name": "gbooking",
   "version": "1.0.0",
-  "description": "Start template for html+js+css apps",
+  "description": "New design main page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nasastriker/starter.git"
+    "url": "git+https://github.com/nasastriker/gbnew.git"
   },
+  "author": "nasastriker <nasastriker88@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasastriker/gbnew/issues"
+  },
+  "homepage": "https://github.com/nasastriker/gbnew#readme",
   "devDependencies": {
-    "browser-sync": "latest",
+    "browser-sync": "^2.18.8",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-filter": "latest",
     "gulp-imagemin": "latest",
+    "gulp-livereload": "^3.8.1",
+    "gulp-main-bower-files": "latest",
     "gulp-minify-css": "latest",
-    "gulp-rigger": "^0.5.8",
-    "gulp-sass": "latest",
+    "gulp-notify": "^3.0.0",
+    "gulp-rigger": "latest",
     "gulp-sourcemaps": "latest",
-    "gulp-stylus": "^2.2.0",
+    "gulp-stylus": "latest",
     "gulp-uglify": "latest",
-    "gulp-watch": "latest",
+    "gulp-watch": "^4.3.11",
     "imagemin-pngquant": "latest",
+    "main-bower-files": "latest",
     "rimraf": "latest"
   }
 }

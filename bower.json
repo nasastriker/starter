@@ -1,17 +1,19 @@
 {
-  "name": "starter",
-  "version": "1.0.0",
-  "homepage": "https://github.com/nasastriker/starter.git",
+  "name": "nasastriker",
+  "version": "0.0.0",
   "authors": [
-    "Sergey Novodvorsky <nasastriker88@gmail.com>"
-  ],
-  "description": "Start template for html+js+css apps",
-  "moduleType": [
-    "globals"
+    "Insayt <nasastriker88@gmail.com>"
   ],
   "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app",
+    "test"
+  ],
   "dependencies": {
-    "normalize.css": "*",
-    "jquery": "2.*"
+    "jquery": "2.*",
+    "bootstrap": "^3.3.7"
   }
 }
