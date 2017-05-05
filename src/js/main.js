@@ -1,9 +1,3 @@
-/*
- Third party
- */
-//= ../../bower_components/jquery/dist/jquery.min.js
-
-/*
-    Custom
- */
-//= partials/helper.js
+(function($) {
+	console.log('jQuery is done')
+})(jQuery);
